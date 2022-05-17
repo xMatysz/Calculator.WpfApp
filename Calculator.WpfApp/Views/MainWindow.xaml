@@ -42,7 +42,7 @@
             <RowDefinition />
         </Grid.RowDefinitions>
 
-        <TextBox Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="5" Text="{Binding ScreenVal}"/>
+        <TextBox Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="5" Text="{Binding ScreenVal}" Focusable="False" IsReadOnlyCaretVisible="True"/>
 
         <Button Grid.Row="1" Grid.Column="0" Content="7" Command="{Binding AddNumberCommand}" CommandParameter="7"/>
         <Button Grid.Row="1" Grid.Column="1" Content="8" Command="{Binding AddNumberCommand}" CommandParameter="8"/>
